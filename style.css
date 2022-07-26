@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Maven+Pro&family=Oxygen&family=Righteous&display=swap');
+
+/*:root {
+
+    --lato: 'Lato';
+}*/
+
+
+#equilibrio:hover {
+
+    cursor: pointer;
+    
+}   
+
+#equilibrio{
+    width: 90%;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    left: 12px;
+    right: 10px;
+    justify-content: center; /*de acordo com o container, alinho minha imagem*/
+    align-items: center;
+}
+
+
+#cristal {
+    width: 4%;
+    position: relative;
+    top: 47px;
+    left: 13px;
+
+}
+
+.cristal-texto {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 13px;
+    color: #85EFFF;
+    position: relative;
+    top: 28px;
+    left: 30px;
+}
+
+#relogio {
+    width: 6%;
+    position: relative; 
+    top: 13px;
+    left: 145px;
+    
+}
+
+.relogio-texto {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 13px;
+    color: #6786A0;
+    position: relative;
+    top: -4px;
+    left: 167px;    
+}
+
+#avatar {
+    position: relative;
+    top: 8px;
+    left: 13px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 12%;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 2%;
+    box-shadow: 0 17px 10px 18px #00000020;
+    width: 265px;
+    height: 450px;
+    background-color: #1E334F;
+    border: 1px solid black;
+    position: relative;
+    top: 100px; 
+    
+}
+
+.equilibrio-titulo:hover {
+    color: #85EFFF;
+    cursor: pointer;
+}
+
+.equilibrio-titulo {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    position: relative;
+    top: 20px;
+    left: 13px;
+
+}
+
+.equilibrio-texto {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 14.5px;
+    color: #6786A0;
+    position: relative;
+    top: 30px;  
+    left: 13px;
+
+}
+
+
+.avatar-texto {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 14px;
+    color: #6786A0;
+    position: relative;
+    top: -19px;
+    left: 61px;
+}
+
+#avatar-negrito {
+    color: #FFFFFF;
+}
+
+#avatar-negrito:hover {
+    color: #85EFFF;
+    cursor: pointer;
+}
+
